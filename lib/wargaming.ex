@@ -1,0 +1,2 @@
+defmodule Wargaming do
+end
