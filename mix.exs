@@ -22,7 +22,8 @@ defmodule Wargaming.MixProject do
   defp deps do
     [
       {:httpoison, "~> 1.1"},
-      {:poison, "~> 3.1"}
+      {:poison, "~> 3.1"},
+      {:exvcr, "~> 0.10.2", only: :test}
     ]
   end
 end

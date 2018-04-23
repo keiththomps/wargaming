@@ -3,7 +3,6 @@ defmodule WargamingTest.WarshipsTest do
   use WargamingTest.Config
 
   doctest Wargaming.Warships
-
   alias Wargaming.Warships
 
   setup do

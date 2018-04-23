@@ -18,7 +18,4 @@ defmodule Wargaming.Warships do
 
     @endpoints[region] <> url
   end
-
-  # Example Request /account/list/?application_id=#{APPLICATION_ID}&search=CallMeRabbi
-  # Example using HTTPoison GET: Wargaming.Warships.get("/account/list/", [], params: %{application_id: app_id, search: "CallMeRabbi"})
 end
