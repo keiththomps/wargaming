@@ -3,3 +3,4 @@
 use Mix.Config
 
 config :wargaming, :app_id, System.get_env("APPLICATION_ID")
+config :wargaming, :region, "NA"

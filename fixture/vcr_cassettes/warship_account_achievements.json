@@ -1,0 +1,30 @@
+[
+  {
+    "request": {
+      "body": "",
+      "headers": [],
+      "method": "get",
+      "options": [],
+      "request_body": "",
+      "url": "https://api.worldofwarships.com/wows/account/achievements/?account_id=1030494954&application_id=123456"
+    },
+    "response": {
+      "binary": false,
+      "body": "{\"status\":\"ok\",\"meta\":{\"count\":1,\"hidden\":null},\"data\":{\"1030494954\":{\"battle\":{\"FIGHTER\":1,\"MILLIONAIR\":1,\"SCIENCE_OF_WINNING_ARSONIST\":1,\"SCIENCE_OF_WINNING_TACTICIAN\":1,\"ENGINEER\":1,\"DOUBLE_KILL\":1,\"MAIN_CALIBER\":6,\"INSTANT_KILL\":2,\"JUNIOR_PLANNER\":1,\"MESSENGER_L\":1,\"ATBA_CALIBER\":2,\"TWITCH_WG\":1,\"SCIENCE_OF_WINNING_TO_THE_BOTTOM\":1,\"NEVER_ENOUGH_MONEY\":1,\"DREADNOUGHT\":1,\"CAPITAL\":1,\"SCIENCE_OF_WINNING_BOMBARDIER\":1,\"WARRIOR\":1,\"FIRST_BLOOD\":4,\"LIQUIDATOR\":1,\"NO_DAY_WITHOUT_ADVENTURE_L\":1,\"TWITCH_PRIME\":1,\"SUPPORT\":1,\"AMAUTEUR\":1,\"SCIENCE_OF_WINNING_LUCKY\":1},\"progress\":{\"FIGHTER\":0,\"MILLIONAIR\":0,\"NO_DAY_WITHOUT_ADVENTURE_L\":0,\"NEVER_ENOUGH_MONEY\":0,\"JUNIOR_PLANNER\":0,\"CAPITAL\":0,\"SCIENCE_OF_WINNING_BOMBARDIER\":0,\"MESSENGER_L\":0,\"AMAUTEUR\":0,\"ENGINEER\":0}}}}",
+      "headers": {
+        "Server": "nginx",
+        "Content-Type": "application/json; charset=utf-8",
+        "Content-Length": "772",
+        "Connection": "keep-alive",
+        "Vary": "Accept-Encoding",
+        "X-Api-Version": "1.15.0",
+        "Content-Language": "en",
+        "Access-Control-Request-Method": "GET, POST",
+        "Date": "Tue, 24 Apr 2018 11:58:19 GMT",
+        "Access-Control-Allow-Origin": "*"
+      },
+      "status_code": 200,
+      "type": "ok"
+    }
+  }
+]

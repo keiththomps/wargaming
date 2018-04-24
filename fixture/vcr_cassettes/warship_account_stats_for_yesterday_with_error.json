@@ -1,0 +1,28 @@
+[
+  {
+    "request": {
+      "body": "",
+      "headers": [],
+      "method": "get",
+      "options": [],
+      "request_body": "",
+      "url": "https://api.worldofwarships.com/wows/account/statsbydate/?account_id=fake_id&application_id=123456"
+    },
+    "response": {
+      "binary": false,
+      "body": "{\"status\":\"error\",\"error\":{\"field\":\"account_id\",\"message\":\"INVALID_ACCOUNT_ID\",\"code\":407,\"value\":\"fake_id\"}}",
+      "headers": {
+        "Server": "nginx",
+        "Content-Type": "application/json; charset=utf-8",
+        "Content-Length": "109",
+        "Connection": "keep-alive",
+        "X-Api-Version": "1.15.0",
+        "Access-Control-Request-Method": "GET, POST",
+        "Date": "Tue, 24 Apr 2018 11:58:17 GMT",
+        "Access-Control-Allow-Origin": "*"
+      },
+      "status_code": 200,
+      "type": "ok"
+    }
+  }
+]

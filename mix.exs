@@ -23,7 +23,7 @@ defmodule Wargaming.MixProject do
     [
       {:httpoison, "~> 1.1"},
       {:poison, "~> 3.1"},
-      {:exvcr, "~> 0.10.2", only: :test}
+      {:exvcr, "~> 0.10.2", only: [:test, :dev]}
     ]
   end
 end

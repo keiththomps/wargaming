@@ -10,17 +10,17 @@
     },
     "response": {
       "binary": false,
-      "body": "{\"status\":\"ok\",\"meta\":{\"count\":7},\"data\":[{\"nickname\":\"CallMeRabbi\",\"account_id\":1030494954},{\"nickname\":\"CallMeRammy\",\"account_id\":1014151486},{\"nickname\":\"CallMeRaptor\",\"account_id\":1012394127},{\"nickname\":\"callmered\",\"account_id\":1001558551},{\"nickname\":\"Callmered_2015\",\"account_id\":1016211328},{\"nickname\":\"CallMeRoye\",\"account_id\":1025865873},{\"nickname\":\"CallmeRupert\",\"account_id\":1029504765}]}",
+      "body": "{\"status\":\"ok\",\"meta\":{\"count\":1},\"data\":[{\"nickname\":\"CallMeRabbi\",\"account_id\":1030494954}]}",
       "headers": {
         "Server": "nginx",
         "Content-Type": "application/json; charset=utf-8",
-        "Content-Length": "402",
+        "Content-Length": "94",
         "Connection": "keep-alive",
         "X-Api-Version": "1.15.0",
         "Content-Language": "en",
         "Access-Control-Request-Method": "GET, POST",
-        "ETag": "\"d3488f2fc5e5110fc08068ede6325666\"",
-        "Date": "Tue, 24 Apr 2018 11:58:13 GMT",
+        "ETag": "\"1e12b5c742f9849c1a69d5ba2c716db9\"",
+        "Date": "Tue, 24 Apr 2018 11:58:14 GMT",
         "Access-Control-Allow-Origin": "*"
       },
       "status_code": 200,

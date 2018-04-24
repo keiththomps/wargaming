@@ -1,0 +1,29 @@
+[
+  {
+    "request": {
+      "body": "",
+      "headers": [],
+      "method": "get",
+      "options": [],
+      "request_body": "",
+      "url": "https://api.worldofwarships.com/wows/account/statsbydate/?account_id=1030494954&application_id=123456"
+    },
+    "response": {
+      "binary": false,
+      "body": "{\"status\":\"ok\",\"meta\":{\"count\":1,\"hidden\":null},\"data\":{\"1030494954\":{\"pvp\":{\"20180423\":{\"capture_points\":0,\"account_id\":1030494954,\"max_xp\":1946,\"wins\":80,\"planes_killed\":39,\"battles\":135,\"damage_dealt\":2909875,\"battle_type\":\"pvp\",\"date\":\"20180423\",\"xp\":116797,\"frags\":87,\"survived_battles\":48,\"dropped_capture_points\":0}}}}}",
+      "headers": {
+        "Server": "nginx",
+        "Content-Type": "application/json; charset=utf-8",
+        "Content-Length": "326",
+        "Connection": "keep-alive",
+        "X-Api-Version": "1.15.0",
+        "Content-Language": "en",
+        "Access-Control-Request-Method": "GET, POST",
+        "Date": "Tue, 24 Apr 2018 11:58:18 GMT",
+        "Access-Control-Allow-Origin": "*"
+      },
+      "status_code": 200,
+      "type": "ok"
+    }
+  }
+]

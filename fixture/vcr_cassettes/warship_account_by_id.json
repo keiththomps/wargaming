@@ -1,0 +1,30 @@
+[
+  {
+    "request": {
+      "body": "",
+      "headers": [],
+      "method": "get",
+      "options": [],
+      "request_body": "",
+      "url": "https://api.worldofwarships.com/wows/account/info/?account_id=1030494954&application_id=123456"
+    },
+    "response": {
+      "binary": false,
+      "body": "{\"status\":\"ok\",\"meta\":{\"count\":1,\"hidden\":null},\"data\":{\"1030494954\":{\"last_battle_time\":1524502191,\"account_id\":1030494954,\"leveling_tier\":15,\"created_at\":1522537275,\"leveling_points\":248209,\"updated_at\":1524503820,\"private\":null,\"hidden_profile\":false,\"logout_at\":1524503805,\"karma\":null,\"statistics\":{\"distance\":3969,\"battles\":137,\"pvp\":{\"max_xp\":1946,\"damage_to_buildings\":0,\"main_battery\":{\"max_frags_battle\":4,\"frags\":71,\"hits\":4224,\"max_frags_ship_id\":4292786160,\"shots\":14461},\"max_ships_spotted_ship_id\":4287542992,\"max_damage_scouting\":52927,\"art_agro\":56846900,\"max_xp_ship_id\":3555670000,\"ships_spotted\":76,\"second_battery\":{\"max_frags_battle\":1,\"frags\":2,\"hits\":230,\"max_frags_ship_id\":4290689008,\"shots\":1343},\"max_frags_ship_id\":4290689008,\"xp\":116797,\"survived_battles\":48,\"dropped_capture_points\":0,\"max_damage_dealt_to_buildings\":0,\"torpedo_agro\":5721889,\"draws\":0,\"control_captured_points\":358,\"max_total_agro_ship_id\":3555670000,\"planes_killed\":39,\"battles\":135,\"max_ships_spotted\":4,\"max_suppressions_ship_id\":null,\"survived_wins\":43,\"frags\":87,\"damage_scouting\":1019954,\"max_total_agro\":2125467,\"max_frags_battle\":5,\"capture_points\":0,\"ramming\":{\"max_frags_battle\":0,\"frags\":0,\"max_frags_ship_id\":null},\"suppressions_count\":0,\"max_suppressions_count\":0,\"torpedoes\":{\"max_frags_battle\":1,\"frags\":4,\"hits\":20,\"max_frags_ship_id\":4292753392,\"shots\":424},\"max_planes_killed_ship_id\":3555670000,\"aircraft\":{\"max_frags_battle\":0,\"frags\":0,\"max_frags_ship_id\":null},\"team_capture_points\":8461,\"control_dropped_points\":645,\"max_damage_dealt\":78482,\"max_damage_dealt_to_buildings_ship_id\":null,\"max_damage_dealt_ship_id\":3555670000,\"wins\":80,\"losses\":55,\"damage_dealt\":2909875,\"max_planes_killed\":9,\"max_scouting_damage_ship_id\":4281251536,\"team_dropped_capture_points\":5384,\"battles_since_512\":135}},\"nickname\":\"CallMeRabbi\",\"stats_updated_at\":1524503820}}}",
+      "headers": {
+        "Server": "nginx",
+        "Content-Type": "application/json; charset=utf-8",
+        "Content-Length": "1871",
+        "Connection": "keep-alive",
+        "Vary": "Accept-Encoding",
+        "X-Api-Version": "1.15.0",
+        "Content-Language": "en",
+        "Access-Control-Request-Method": "GET, POST",
+        "Date": "Tue, 24 Apr 2018 11:58:15 GMT",
+        "Access-Control-Allow-Origin": "*"
+      },
+      "status_code": 200,
+      "type": "ok"
+    }
+  }
+]

@@ -1,0 +1,29 @@
+[
+  {
+    "request": {
+      "body": "",
+      "headers": [],
+      "method": "get",
+      "options": [],
+      "request_body": "",
+      "url": "https://api.worldofwarships.com/wows/account/statsbydate/?account_id=1030494954&application_id=123456&dates=20180314%2C20180315"
+    },
+    "response": {
+      "binary": false,
+      "body": "{\"status\":\"ok\",\"meta\":{\"count\":1,\"hidden\":null},\"data\":{\"1030494954\":{\"pvp\":null}}}",
+      "headers": {
+        "Server": "nginx",
+        "Content-Type": "application/json; charset=utf-8",
+        "Content-Length": "83",
+        "Connection": "keep-alive",
+        "X-Api-Version": "1.15.0",
+        "Content-Language": "en",
+        "Access-Control-Request-Method": "GET, POST",
+        "Date": "Tue, 24 Apr 2018 11:58:16 GMT",
+        "Access-Control-Allow-Origin": "*"
+      },
+      "status_code": 200,
+      "type": "ok"
+    }
+  }
+]
