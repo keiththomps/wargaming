@@ -6,7 +6,7 @@
       "method": "get",
       "options": [],
       "request_body": "",
-      "url": "https://api.worldofwarships.com/wows/account/achievements/?account_id=fake_id&application_id=***REMOVED***"
+      "url": "https://api.worldofwarships.com/wows/account/achievements/?account_id=fake_id&application_id=123456"
     },
     "response": {
       "binary": false,

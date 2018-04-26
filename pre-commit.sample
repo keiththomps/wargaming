@@ -3,9 +3,10 @@
 # To enable this hook, move the file to `.git/hooks/pre-commit`
 
 # Find files that have a value set for `application_id` to redact
-query="application_id(\s*)=.*(&)?"
+query="application_id(\s*)=[^\"&]+"
 
-for file in $(grep -El $query `git diff --cached --name-only`); do
-	sed -i 's/application_id\(\s*\)=.*\&/application_id\1=123456\&/g' $file
+for file in $(ag -ls $query `git diff --cached --name-only`); do
+	sed -E "s/$query/application_id\1=123456/g" $file > temp.file
+	mv temp.file $file
 	git add $file
 done
