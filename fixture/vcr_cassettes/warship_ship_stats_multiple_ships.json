@@ -1,0 +1,30 @@
+[
+  {
+    "request": {
+      "body": "",
+      "headers": [],
+      "method": "get",
+      "options": [],
+      "request_body": "",
+      "url": "https://api.worldofwarships.com/wows/ships/stats/?account_id=1030494954&application_id=123456&ship_id=4289640432%2C3555670000"
+    },
+    "response": {
+      "binary": false,
+      "body": "{\"status\":\"ok\",\"meta\":{\"count\":1,\"hidden\":null},\"data\":{\"1030494954\":[{\"pvp\":{\"max_xp\":1607,\"damage_to_buildings\":0,\"main_battery\":{\"max_frags_battle\":2,\"frags\":6,\"hits\":804,\"shots\":3221},\"suppressions_count\":0,\"max_damage_scouting\":49130,\"art_agro\":10509500,\"ships_spotted\":15,\"second_battery\":{\"max_frags_battle\":0,\"frags\":0,\"hits\":0,\"shots\":0},\"xp\":21361,\"survived_battles\":5,\"dropped_capture_points\":0,\"max_damage_dealt_to_buildings\":0,\"torpedo_agro\":738393,\"draws\":0,\"planes_killed\":1,\"battles\":22,\"max_ships_spotted\":2,\"team_capture_points\":1919,\"frags\":9,\"damage_scouting\":271197,\"max_total_agro\":1344300,\"max_frags_battle\":2,\"capture_points\":0,\"ramming\":{\"max_frags_battle\":0,\"frags\":0},\"torpedoes\":{\"max_frags_battle\":0,\"frags\":0,\"hits\":0,\"shots\":74},\"aircraft\":{\"max_frags_battle\":0,\"frags\":0},\"survived_wins\":5,\"max_damage_dealt\":59963,\"wins\":11,\"losses\":11,\"damage_dealt\":438316,\"max_planes_killed\":1,\"max_suppressions_count\":0,\"team_dropped_capture_points\":961,\"battles_since_512\":22},\"last_battle_time\":1524178679,\"account_id\":1030494954,\"distance\":676,\"updated_at\":1524179938,\"battles\":22,\"ship_id\":4289640432,\"private\":null},{\"pvp\":{\"max_xp\":1946,\"damage_to_buildings\":0,\"main_battery\":{\"max_frags_battle\":2,\"frags\":10,\"hits\":391,\"shots\":1878},\"suppressions_count\":0,\"max_damage_scouting\":39534,\"art_agro\":15933600,\"ships_spotted\":5,\"second_battery\":{\"max_frags_battle\":0,\"frags\":0,\"hits\":6,\"shots\":20},\"xp\":24062,\"survived_battles\":11,\"dropped_capture_points\":0,\"max_damage_dealt_to_buildings\":0,\"torpedo_agro\":1017165,\"draws\":0,\"planes_killed\":25,\"battles\":23,\"max_ships_spotted\":3,\"team_capture_points\":1320,\"frags\":10,\"damage_scouting\":203420,\"max_total_agro\":2125467,\"max_frags_battle\":2,\"capture_points\":0,\"ramming\":{\"max_frags_battle\":0,\"frags\":0},\"torpedoes\":{\"max_frags_battle\":0,\"frags\":0,\"hits\":0,\"shots\":0},\"aircraft\":{\"max_frags_battle\":0,\"frags\":0},\"survived_wins\":9,\"max_damage_dealt\":78482,\"wins\":14,\"losses\":9,\"damage_dealt\":676883,\"max_planes_killed\":9,\"max_suppressions_count\":0,\"team_dropped_capture_points\":347,\"battles_since_512\":23},\"last_battle_time\":1523982078,\"account_id\":1030494954,\"distance\":661,\"updated_at\":1523982733,\"battles\":23,\"ship_id\":3555670000,\"private\":null}]}}",
+      "headers": {
+        "Server": "nginx",
+        "Content-Type": "application/json; charset=utf-8",
+        "Content-Length": "2217",
+        "Connection": "keep-alive",
+        "Vary": "Accept-Encoding",
+        "X-Api-Version": "1.15.0",
+        "Content-Language": "en",
+        "Access-Control-Request-Method": "GET, POST",
+        "Date": "Thu, 26 Apr 2018 10:58:56 GMT",
+        "Access-Control-Allow-Origin": "*"
+      },
+      "status_code": 200,
+      "type": "ok"
+    }
+  }
+]

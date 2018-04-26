@@ -6,19 +6,19 @@
       "method": "get",
       "options": [],
       "request_body": "",
-      "url": "https://api.worldofwarships.com/wows/account/info/?account_id=fake_id&application_id=123456"
+      "url": "https://api.worldofwarships.com/wows/ships/stats/?account_id=1030494954%2C1014151486&application_id=123456&ship_id=4289640432%2C3555670000"
     },
     "response": {
       "binary": false,
-      "body": "{\"status\":\"error\",\"error\":{\"field\":\"account_id\",\"message\":\"INVALID_ACCOUNT_ID\",\"code\":407,\"value\":\"fake_id\"}}",
+      "body": "{\"status\":\"error\",\"error\":{\"field\":\"account_id\",\"message\":\"INVALID_ACCOUNT_ID\",\"code\":407,\"value\":\"1030494954,1014151486\"}}",
       "headers": {
         "Server": "nginx",
         "Content-Type": "application/json; charset=utf-8",
-        "Content-Length": "109",
+        "Content-Length": "123",
         "Connection": "keep-alive",
         "X-Api-Version": "1.15.0",
         "Access-Control-Request-Method": "GET, POST",
-        "Date": "Wed, 25 Apr 2018 22:49:17 GMT",
+        "Date": "Thu, 26 Apr 2018 10:57:37 GMT",
         "Access-Control-Allow-Origin": "*"
       },
       "status_code": 200,
