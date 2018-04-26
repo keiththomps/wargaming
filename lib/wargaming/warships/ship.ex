@@ -41,7 +41,7 @@ defmodule Wargaming.Warships.Ship do
   end
 
   @doc """
-  See [Ship.stats_for_all_ships/2](#stats-for-all-ships). Convenience function for specifying specific ship(s).
+  See [Ship.stats_for_all_ships/2](#stats_for_all_ships/2). Convenience function for specifying specific ship(s).
   """
   def stats_for_ship(accounts_id, ship_ids, opts \\ %{})
 

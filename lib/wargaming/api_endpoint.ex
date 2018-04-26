@@ -1,16 +1,20 @@
 defmodule Wargaming.ApiEndpoint do
+  @moduledoc false
+
   defmacro __using__(api: api_module) do
     quote do
       @default_opts %{
         application_id: Application.get_env(:wargaming, :app_id, "123456")
       }
 
+      @doc false
       def encode_query(opts) do
         @default_opts
         |> Map.merge(opts)
         |> URI.encode_query()
       end
 
+      @doc false
       def get(url, opts \\ %{}) do
         url
         |> unquote(api_module).get(opts)
@@ -21,6 +25,7 @@ defmodule Wargaming.ApiEndpoint do
         |> decode
       end
 
+      @doc false
       defp decode({:error, reason}), do: {:error, reason}
 
       defp decode({_status_code, raw_body}) do
@@ -32,12 +37,14 @@ defmodule Wargaming.ApiEndpoint do
         end
       end
 
+      @doc false
       defp extract_error(%{status: "error"} = parsed_body) do
         {:error, parsed_body.error}
       end
 
       defp extract_error(parsed_body), do: {:ok, parsed_body}
 
+      @doc false
       defp constructed_get(field_name, values, url, opts) when is_list(values) do
         query_string =
           opts

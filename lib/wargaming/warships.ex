@@ -1,4 +1,9 @@
 defmodule Wargaming.Warships do
+  @moduledoc false
+
+  # Wargaming.Warships is the base API module that configures the
+  # root API to interact with for World of Warships for the given region.
+
   use HTTPoison.Base
 
   @endpoints %{
@@ -8,6 +13,7 @@ defmodule Wargaming.Warships do
     "ASIA" => "https://api.worldofwarships.asia/wows"
   }
 
+  @doc false
   def process_url(url) do
     region =
       case Application.fetch_env(:wargaming, :region) do

@@ -142,7 +142,7 @@ defmodule Wargaming.Warships.Account do
   end
 
   @doc """
-  See [stats_for_dates](#stats-for-dates). Returns default API value of yesterday.
+  See [stats_for_dates](#stats_for_dates/3). Returns default API value of yesterday.
   """
   def stats_for_yesterday(account_ids, opts \\ %{}) do
     constructed_get(:account_id, account_ids, @account_stats, opts)
