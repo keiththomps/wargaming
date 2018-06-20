@@ -45,6 +45,14 @@ defmodule Wargaming.ApiEndpoint do
       defp extract_error(parsed_body), do: {:ok, parsed_body}
 
       @doc false
+      defp constructed_get(url, opts) do
+        query_string =
+          opts
+          |> encode_query()
+
+        get(url <> "?#{query_string}")
+      end
+
       defp constructed_get(field_name, values, url, opts) when is_list(values) do
         query_string =
           opts

@@ -1,0 +1,31 @@
+[
+  {
+    "request": {
+      "body": "",
+      "headers": [],
+      "method": "get",
+      "options": [],
+      "request_body": "",
+      "url": "https://api.worldofwarships.com/wows/encyclopedia/shipprofile/?application_id=123456&ship_id=3337500656"
+    },
+    "response": {
+      "binary": false,
+      "body": "{\"status\":\"ok\",\"meta\":{\"count\":1},\"data\":{\"3337500656\":{\"engine\":{\"engine_id_str\":\"PAUE976\",\"max_speed\":36.0,\"engine_id\":3271405552},\"torpedo_bomber\":null,\"anti_aircraft\":{\"slots\":{\"0\":{\"distance\":3.5,\"avg_damage\":22,\"caliber\":40,\"name\":\"40 mm Bofors Mk1\",\"guns\":2},\"1\":{\"distance\":3.5,\"avg_damage\":31,\"caliber\":40,\"name\":\"40 mm Bofors Mk2\",\"guns\":2},\"2\":{\"distance\":2.0,\"avg_damage\":43,\"caliber\":20,\"name\":\"20 mm Oerlikon Mk4\",\"guns\":12},\"3\":{\"distance\":5.0,\"avg_damage\":45,\"caliber\":127,\"name\":\"127 mm\\/38 Mk38 mod. 0\",\"guns\":3}},\"defense\":41},\"mobility\":{\"rudder_time\":3.3,\"total\":83,\"turning_radius\":640,\"max_speed\":36.0},\"hull\":{\"hull_id\":3271307248,\"hull_id_str\":\"PAUH976\",\"torpedoes_barrels\":2,\"anti_aircraft_barrels\":19,\"range\":{\"max\":21,\"min\":6},\"health\":19400,\"planes_amount\":0,\"artillery_barrels\":3,\"atba_barrels\":0},\"atbas\":null,\"artillery\":{\"max_dispersion\":98,\"shells\":{\"AP\":{\"burn_probability\":null,\"bullet_speed\":792,\"name\":\"127 mm AP\\/SC Mk38\",\"damage\":2100,\"bullet_mass\":25,\"type\":\"AP\"},\"HE\":{\"burn_probability\":5.0,\"bullet_speed\":792,\"name\":\"127 mm HE Mk32\",\"damage\":1800,\"bullet_mass\":25,\"type\":\"HE\"}},\"shot_delay\":3.0,\"rotation_time\":7.2,\"distance\":11.1,\"artillery_id\":3272585200,\"artillery_id_str\":\"PAUA975\",\"slots\":{\"0\":{\"barrels\":2,\"name\":\"127 mm\\/38 Mk38 mod. 0\",\"guns\":3}},\"gun_rate\":20.0},\"torpedoes\":{\"visibility_dist\":1.4,\"distance\":16.5,\"torpedoes_id\":3273011184,\"torpedo_name\":\"Mk17\",\"reload_time\":136,\"torpedo_speed\":66,\"rotation_time\":7.2,\"torpedoes_id_str\":\"PAUT974\",\"slots\":{\"0\":{\"barrels\":5,\"caliber\":533,\"name\":\"533 mm Mk15\",\"guns\":2}},\"max_damage\":17900},\"fighters\":null,\"ship_id\":3337500656,\"fire_control\":{\"fire_control_id\":3273043952,\"distance\":11.1,\"distance_increase\":0,\"fire_control_id_str\":\"PAUS974\"},\"weaponry\":{\"anti_aircraft\":41,\"aircraft\":0,\"artillery\":28,\"torpedoes\":37},\"battle_level_range_max\":10,\"battle_level_range_min\":10,\"flight_control\":null,\"concealment\":{\"total\":85,\"detect_distance_by_plane\":4.3,\"detect_distance_by_ship\":7.6},\"armour\":{\"casemate\":{\"max\":-1,\"min\":-1},\"flood_prob\":0,\"deck\":{\"max\":-1,\"min\":-1},\"flood_damage\":0,\"range\":{\"max\":21,\"min\":6},\"health\":19400,\"extremities\":{\"max\":-1,\"min\":-1},\"total\":35,\"citadel\":{\"max\":-1,\"min\":-1}},\"dive_bomber\":null}}}",
+      "headers": {
+        "Server": "nginx",
+        "Content-Type": "application/json; charset=utf-8",
+        "Content-Length": "2226",
+        "Connection": "keep-alive",
+        "Vary": "Accept-Encoding",
+        "X-Api-Version": "1.16.0",
+        "Content-Language": "en",
+        "Access-Control-Request-Method": "GET, POST",
+        "ETag": "\"9c45b1d001fbb5e7e6a484480a5a9d3e\"",
+        "Date": "Wed, 20 Jun 2018 21:15:49 GMT",
+        "Access-Control-Allow-Origin": "*"
+      },
+      "status_code": 200,
+      "type": "ok"
+    }
+  }
+]
